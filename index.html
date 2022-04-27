@@ -3,103 +3,67 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Tim's Portfolio</title>
+  <title>Tim Lagerqvist</title>
   <link rel="stylesheet" href="CSS/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="Resources/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&family=Poppins&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <!-- Depricated -->
-    <tr>
-      <td><img class="profileImg" width=200em src="https://pbs.twimg.com/profile_images/1378394589971763206/XlTCLTsb_400x400.jpg" alt="Profile image of Tim Lagerqvist"></td>
-      <td>
-        <h1>Tim Lagerqvist</h1>
-        <p><em>Customer Representative - Technical Support at <a href="https://www.tre.se/">Tre Sweden</a>.</em></p>
-        <p>I am a selftaught web-developer with a <a href="https://www.bth.se/">game dev. background</a> currently working as a customer rep at <a href="https://www.tre.se/">Tre</a></p>
-        <a href="contact.html">Contact Info</a>
-      </td>
-    </tr>
-  </table>
+  <div class="Title">
+    <img class="TopCloud" src="Resources/images/cloud.png" alt="Image of a cloud">
+    <h1>I'm Tim.</h1>
+    <h2>a developer.</h2>
+    <img class="LowerCloud" src="Resources/images/cloud.png" alt="Image of a cloud">
+    <img class="Mountain" src="Resources/images/mountain.png" alt="Image of a mountain">
+  </div>
+
+  <div class="Profile">
+    <img class="Profile-Img" src="Resources/images/Profile0.jpg" alt="Profile picture of Tim">
+    <h2>Hello.</h2>
+    <p>I am a former gamedev. student who had a change of hart and is now persuing webdev.
+      Currently working fulltime at a telecom company as a costumer representative.
+      I love coffee, games and music!</p>
+  </div>
 
   <hr>
 
-  <!-- Skills table -->
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>3D Modelling</td>
-            <td>★★★★✩</td>
-          </tr>
-          <tr>
-            <td>Game Dev.</td>
-            <td>★★★✩✩</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>Coffee Brewing</td>
-            <td>★★★★★</td>
-          </tr>
-          <tr>
-            <td>Web Dev.</td>
-            <td>★★✩✩✩</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <div class="Middle-Container">
+    <h2>My Skills.</h2>
+    <div class="Skills">
+      <img class="Skills-Img" src="Resources/images/computer.png" alt="Computer">
+      <h3>A Technical Artist</h3>
+      <p>I started programming in game making tools such as GameMaker 1.2 and Unity when I was around 13 years old.</p>
+      <p>After three years of study at the Blekinge Institute of Technology with a focus on game dev I garneder a solid foundation of writing programs in languages such as C++ and python.</p>
+      <img class="SecondSkills" src="Resources/images/coffee.png" alt="Coffee">
+      <h3 class="CoffeeSkill">Brewing Coffee</h3>
+      <p>The skill I excell at is the multiple ways to brew a cup of joe. There is nothing like the first cup in the morning! Aeropress? Espresso or why not pour-over? I can make it for you!</p>
+    </div>
+  </div>
 
   <hr>
 
-  <!-- Education -->
-  <h3>Education</h3>
-  <ul>
-    <li>Blekinge Tekniska Högskola (2017 - 2020)</li>
-    <ul>
-      <li>C++, Python, C#, MEL, OpenGL</li>
-      <li>Autodesk Maya, Unity, Unreal Engine</li>
-    </ul>
-  </ul>
+  <div class="Contact">
+    <h2>Get In Touch</h2>
+    <h3>If you love coffee as much as me.</h3>
+    <p>Do you love coffe as much as I do? Then let's make some awesome coffe and figure out what kind of projects we can make together!</p>
+    <br>
+    <a class="btn" href="contact.html">CONTACT ME</a>
 
-  <hr>
+  </div>
 
-  <!-- Work Experience -->
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Role</th>
-        <th>Employer</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2021 - Current</td>
-        <td>Current Customer Representative Tech-support</td>
-        <td>Tre</td>
-      </tr>
-      <tr>
-        <td>2020 - 2021</td>
-        <td>Juicer</td>
-        <td>Joe and the Juice</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <br>
-  <a href="contact.html">Contact Info</a>
-
-
-
+  <div class="footer">
+    <a class="ContactLink" href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit">LinkedIn</a>
+    <a class="ContactLink" href="https://twitter.com/Timla98">Twitter</a>
+    <a class="ContactLink" href="https://www.instagram.com/timx98/?hl=en">Instagram</a>
+    <br>
+    <footer class="foot">©2022 Tim Lagerqvist.</footer>
+  </div>
 </body>
 
 </html>
